@@ -1,3 +1,6 @@
 [submodule "Drivers/nanoprintf"]
 	path = Drivers/nanoprintf
 	url = https://github.com/charlesnicholson/nanoprintf
+[submodule "Drivers/midilib"]
+	path = Drivers/midilib
+	url = https://github.com/beowulf20/midilib.git
