@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Core/**",
+        "${workspaceFolder}/Drivers/**",
+        "${config:toolchain_path}/arm-none-eabi/include/**"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": false,
+        "path": [
+          "${workspaceFolder}/**",
+          "${workspaceFolder}/Core/**",
+          "${workspaceFolder}/Drivers/**",
+          "${config:toolchain_path}/arm-none-eabi/include/**"
+        ]
+      },
+      "intelliSenseMode": "clang-x64",
+      "compilerPath": "${config:toolchain_path}\\arm-none-eabi-gcc",
+      "compilerArgs": [
+        "-mcpu=cortex-m3",
+        "-mthumb",
+        "-DUSE_HAL_DRIVER",
+        "-DSTM32F103xB",
+        "-Og",
+        "-Wall",
+        "-fdata-sections",
+        "-ffunction-sections",
+        "-g",
+        "-gdwarf-2",
+        "-MMD",
+        "-MP"
+      ]
+    }
+  ],
+  "version": 4
+}

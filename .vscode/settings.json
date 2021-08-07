@@ -1,0 +1,15 @@
+{
+  "toolchain_path": "${workspaceRoot}/toolchain/bin",
+  "project_name": "brotroller-midi",
+  "cortex-debug.armToolchainPath": "${workspaceRoot}/toolchain/bin",
+  "cortex-debug.openocdPath": "${workspaceRoot}/toolchain/bin/openocd.exe",
+  "terminal.integrated.env.windows": {
+    "PATH": "${config:toolchain_path};${env:PATH}"
+  },
+  "files.associations": {
+    "main.h": "c",
+    "stm32f1xx_hal.h": "c",
+    "nanoprintf.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}
