@@ -17,7 +17,7 @@
           "${config:toolchain_path}/arm-none-eabi/include/**"
         ]
       },
-      "intelliSenseMode": "clang-x64",
+      "intelliSenseMode": "gcc-arm",
       "compilerPath": "${config:toolchain_path}\\arm-none-eabi-gcc",
       "compilerArgs": [
         "-mcpu=cortex-m3",

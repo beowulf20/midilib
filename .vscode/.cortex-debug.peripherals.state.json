@@ -1,1 +1,1 @@
-[{"node":"ADC1","expanded":true,"format":0,"pinned":false},{"node":"ADC1.SMPR1","expanded":true,"format":0},{"node":"EXTI","expanded":true,"format":0,"pinned":false}]
+[{"node":"GPIOG","expanded":true,"format":0,"pinned":false},{"node":"TIM2.CNT","expanded":true,"format":0},{"node":"TIM3.CNT","expanded":true,"format":0},{"node":"TIM3.CNT.CNT","format":2},{"node":"TIM3.ARR","expanded":true,"format":0},{"node":"TIM4.CNT","expanded":true,"format":0}]
